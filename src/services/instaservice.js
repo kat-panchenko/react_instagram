@@ -1,6 +1,6 @@
 export default class InstaService {
     constructor() {
-this._apiBase = 'http://localhost:3000/'
+this._apiBase = 'https://kat-panchenko.github.io/'
     }
 
     getResource = async (url) => { //в асинхронной функции нужно обязательно указывать то, что мы ждем(результат фетча)
